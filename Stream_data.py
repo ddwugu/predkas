@@ -15,8 +15,8 @@ st.subheader('Prediksi Lokasi Kebocoran Line MGS KAS-MOS TPN')
 
 
 # User Inputs
-Titik_1_PSI = st.text_input('Input Pressure di titik 1 (PSI)')
-Titik_2_PSI = st.text_input('Input Pressure di titik 2 (PSI)')
+Titik_1_PSI = st.text_input('Input delta pressure drop di MGS KAS (PSI)')
+Titik_2_PSI = st.text_input('Input delta Pressure drop di MOS (PSI)')
 
 # Code prediction
 suspect_loct = ''
