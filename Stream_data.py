@@ -34,3 +34,6 @@ if LokasiKM is not None and st.button('Prediksi Lokasi'):
         st.success(suspect_loct)
     except Exception as e:
         st.error(f"Error predicting location: {e}")
+
+# Shortcut Link
+st.markdown("[Opsi 2 : Prediksi Linear Model](https://predkas-jfsc9tajwgwqxpzb8wui4e.streamlit.app/)")
