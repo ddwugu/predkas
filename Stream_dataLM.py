@@ -7,7 +7,7 @@ def predict_location(x1, x2):
 
 # Main Streamlit app
 def main():
-    st.title('Pertamina Field Jambi-BJG-TPN')
+    st.title('Pertamina Field Jambi-KAS-TPN')
     st.subheader('Prediksi Lokasi Kebocoran Line KAS-TPN Regresi Model')
 
     Titik_1_PSI = st.text_input('Input delta pressure drop di MGS KAS (PSI)')
