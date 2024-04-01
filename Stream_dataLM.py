@@ -51,9 +51,9 @@ def main():
             Hitung_Losses = predict_loss(R1, P1, P2, s) # Perbaikan pada argumen
 
             if Hitung_Losses < 0: # titik nol
-                suspect_loss = f'Terjadi losses sebesar {Hitung_Losses} BBL/Jam '
+                suspect_loss = f'Terjadi losses sebesar {Hitung_Losses} BBL '
             elif Hitung_Losses > 0: # total panjang trunkline
-                suspect_loss = f'Gain sebesar {Hitung_Losses} BBL/Jam'
+                suspect_loss = f'Gain sebesar {Hitung_Losses} BBL'
             else:
                 suspect_loss = f'Tidak terjadi losses'
             st.success(suspect_loss)
