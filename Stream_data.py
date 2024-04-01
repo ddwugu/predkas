@@ -66,6 +66,6 @@ if st.button('Hitung Losses'):
         st.success(suspect_loss)
     except Exception as e:
         st.error(f"Error predicting location: {e}")
-st.markdown("[Opsi 2 : Prediksi Linear Model](https://1prediksilokasi-eld9x5crdkcrc69g3nzbgv.streamlit.app/)")
+
 # Shortcut Link
 st.markdown("[Opsi 2 : Prediksi Linear Model](https://predkas-jfsc9tajwgwqxpzb8wui4e.streamlit.app/)")
